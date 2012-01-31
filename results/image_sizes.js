@@ -1,4 +1,4 @@
-[
+ImageSizes = [
 	{
 		"megapixels" : 1,
 		"count" : 29220
@@ -291,4 +291,4 @@
 		"megapixels" : 90,
 		"count" : 1
 	}
-]
+];
