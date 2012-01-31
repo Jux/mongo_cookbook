@@ -42,6 +42,9 @@
           title: 'Jux Picture Aspect Ratios (filtered to ' + MIN_COUNT + '+)',
           hAxis: {title: 'Aspect Ratio (width/height)'},
           vAxis: {title: 'Count'},
+          legend: {
+            position: 'none'
+          }
         };
 
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));

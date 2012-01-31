@@ -35,9 +35,12 @@
 
         var options = {
           width: 1200, height: 600,
-          title: 'Jux Image Size (filtered to ' + MIN_COUNT + '+)',
+          title: 'Jux Picture Sizes (filtered to ' + MIN_COUNT + '+)',
           hAxis: {title: 'Size (Megapixels)'},
           vAxis: {title: 'Count'},
+          legend: {
+            position: 'none'
+          }
         };
 
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
